@@ -13,7 +13,7 @@ def my_find(collection)
   end
 end
 
-collection = (1..100).t0_a
+collection = (1..100).to_a
 
 my_find(collection) do |i|
   i % 3 == 0 && i % 5 == 0
